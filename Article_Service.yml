@@ -1,12 +1,7 @@
-spring:
-  application:
-    name: Article_Service
-  profiles:
-    active: native
-    
- 
-    
-    eureka:
+server:
+  port: 8899
+  
+  eureka:
   instance:
     nonSecurePort: ${server.port:8899}
   client:
@@ -20,5 +15,3 @@ spring:
     username: root
     password: password
     driver-class: com.mysql.jdbc.Driver
-    
-      
