@@ -1,9 +1,14 @@
-server:
-  port: 8899
-  
-  eureka:
+spring:
+  application:
+    name: Article_Service
+  profiles:
+    active: native
+    
+ 
+    
+    eureka:
   instance:
-    nonSecurePort: ${server.port:8899}
+    nonSecurePort: ${server.port:8087}
   client:
     serviceUrl:
       defaultZone: http://${eureka.host:localhost}:${eureka.port:8761}/eureka/
