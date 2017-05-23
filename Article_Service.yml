@@ -6,7 +6,7 @@ server:
     nonSecurePort: ${server.port:8899}
   client:
     serviceUrl:
-      defaultZone: http://${eureka.host:localhost}:${eureka.port:8766}/eureka/
+      defaultZone: http://${eureka.host:localhost}:${eureka.port:8761}/eureka/
     
     
     spring:
