@@ -21,21 +21,6 @@ spring:
 
 ---
 # user-webservice instance when used on Docker
-
-spring:
-  datasource:
-    url: jdbc:mysql://localhost:3306/auth
-    username: root
-    password: password
-    driver-class: com.mysql.jdbc.Driver
-  
-  jpa:
-    database-platform: org.hibernate.dialect.MySQLDialect
-    show-sql: false
-    hibernate:
-      ddl-auto: create
-
-
 spring:
   profiles: docker
 eureka:
