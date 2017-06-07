@@ -24,7 +24,7 @@ spring:
 
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/user_webservice
+    url: jdbc:mysql://localhost:3306/auth
     username: root
     password: password
     driver-class: com.mysql.jdbc.Driver
