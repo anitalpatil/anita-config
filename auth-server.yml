@@ -28,7 +28,7 @@ spring:
     hibernate:
       ddl-auto: create
 
-  ---
+---
 
 spring:
   profiles: docker
