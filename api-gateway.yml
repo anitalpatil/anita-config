@@ -18,6 +18,7 @@ authserver:
 zuul:
   routes:
     user-webservice: /api/user/**
+    user-webservice: /api/user1/getall
     task-webservice: /api/task/**
     web-portal: /**
     user: 
