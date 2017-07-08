@@ -20,7 +20,7 @@ zuul:
     user-webservice: /api/user/**
     task-webservice: /api/task/**
     web-portal: /**
-    web-ui: /ui/**
+    Article_Service: /ui/**
     user: 
       path: /api/loggedinuser/**
       stripPrefix: true
